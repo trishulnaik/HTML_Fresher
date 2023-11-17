@@ -1,0 +1,155 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>HTML project</title>
+    <meta name="description" content="This is a practical html project." />
+    <meta name="keyword" content="HTML" />
+    <meta name="author" content="Bannoth Trishul Naik" />
+    <link rel="shortcut icon" href="./favicon.ico" type="image/x-icon" />
+  </head>
+
+  <body>
+    <!-- semantic tags to be used for better SEO-->
+    <header>
+      <h1>HTML project</h1>
+    </header>
+    <main>
+      <!-- BIO data section -->
+      <section>
+        <h2>Bannoth Trishul Naik</h2>
+        <aside>
+          <img src="./trishulImage.JPG" alt="myImage" width="200" />
+        </aside>
+        <p>This are the area where I'm Interested</p>
+        <ul>
+          <li>Web Development (MERN Stack)</li>
+          <li>Cyber Security</li>
+        </ul>
+      </section>
+      <hr />
+      <!-- Education section -->
+      <section>
+        <h2>Education</h2>
+        <table>
+          <thead>
+            <tr>
+              <th>S.no</th>
+              <th>Year</th>
+              <th>Education</th>
+              <th>Institute</th>
+              <th>Grade</th>
+            </tr>
+          </thead>
+          <tbody>
+            <tr>
+              <td>1</td>
+              <td>2017-2021</td>
+              <td>B.Tech (ECE)</td>
+              <td>IIIT-Allahabad</td>
+              <td>7.39/10</td>
+            </tr>
+            <tr>
+              <td>2</td>
+              <td>2015-2017</td>
+              <td>Junior College (MPC)</td>
+              <td>Narayana Junior College</td>
+              <td>94.5%</td>
+            </tr>
+            <tr>
+              <td>3</td>
+              <td>2015</td>
+              <td>10th</td>
+              <td>Bhashyam Public School</td>
+              <td>9.8/10</td>
+            </tr>
+          </tbody>
+        </table>
+      </section>
+      <hr />
+      <section>
+        <h2>Form details</h2>
+        <form>
+          <label for="client-name">Full Name:</label>
+          <input type="text" id="client-name" />
+          <label for="client-email">Email:</label>
+          <input type="email" name="client-email" id="client-email" />
+          <label for="client-bday">D.O.B</label>
+          <input type="date" name="client-bday" id="client-bday" />
+          <br />
+          <span>Gender:</span>
+          <label for="client-gender-male">
+            <input type="radio" name="client-gender" id="client-gender-male" />
+            Male
+          </label>
+          <label for="client-gender-female">
+            <input
+              type="radio"
+              name="client-gender"
+              id="client-gender-female"
+            />
+            Female
+          </label>
+          <label for="client-gender-no">
+            <input type="radio" name="client-gender" id="client-gender-no" />
+            Not to mention
+          </label>
+          <br />
+          <label for="client-approve">
+            <input type="checkbox" name="client-approve" id="client-approve" />
+            Do you like the page
+          </label>
+          <br />
+          <label for="client-transport">Mode of Transport:</label>
+          <select name="transportation" id="client-transport">
+            <option value="own">Own</option>
+            <option value="flight">Flight</option>
+            <option value="train">Train</option>
+          </select>
+          <br />
+          <textarea cols="50" rows="3">Enter your thoughts</textarea>
+        </form>
+      </section>
+      <hr />
+      <!-- resources section -->
+      <section>
+        <h2>Resources</h2>
+        <ol>
+          <li>
+            <p>
+              I'm learning Web Development from
+              <a href="https://www.codewithharry.com/" target="_blank"
+                >Code With Harry</a
+              >
+            </p>
+          </li>
+          <li>
+            <p>
+              This video really helped me understand HTML for a beginner like me
+            </p>
+            <iframe
+              width="560"
+              height="315"
+              src="https://www.youtube.com/embed/BsDoLVMnmZs?si=a2qCeqcAa6Zsg_Sz"
+              title="YouTube video player"
+              frameborder="0"
+              allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+              allowfullscreen
+            ></iframe>
+          </li>
+          <li>
+            Have used
+            <a href="https://code.visualstudio.com/" target="_blank">VScode</a>
+            <p>Extension used</p>
+            <ul>
+              <li>Live server</li>
+              <li>HTML checker</li>
+            </ul>
+          </li>
+        </ol>
+      </section>
+    </main>
+    <footer></footer>
+  </body>
+</html>
